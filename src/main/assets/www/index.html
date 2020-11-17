@@ -1,0 +1,53 @@
+<!DOCTYPE html>  
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=320,initial-scale=1,maximum-scale=1.0">
+	<title>最小英和辞典</title>
+	<link rel="stylesheet" type="text/css" id="cssFile" href="ejdict.css" />
+	<script type="text/javascript" src="jsWaffle.js"></script>
+	<script type="text/javascript" src="jisyo.js"></script>
+	<script type="text/javascript" src="EJDict.js"></script>
+</head>
+<body>
+	<div id="searchForm">
+		<span style="font-size:24px;" onclick="menu_new()">×</span>
+		<input id="key" type="text" onchange="find()"/>
+		<img src="key_btn.png" id="key_btn" onclick="find()" width="50" height="50"/>
+	</div>
+	<div id="dummy">
+        <img class="dummy-image" src="dmy.gif">
+	</div>
+	<h1 id="apptitle">最小英和辞典</h1>
+	<div id="history"></div>
+	<div id="info"></div>
+	<div id="res">
+		<div class="word">使い方</div>
+		<div class="mean">
+			<p>■ 上のテキストボックスに単語を入力して検索ボタンをタップします。</p>
+			<br/>
+			<p>■ 基本的に英和辞典ですが、日本語から英語を探すことも可能です。</p>
+			<br/>
+			<p>■ ネットにつながってなくても使うことができます。
+			地下鉄など移動中や海外旅行の時でも安心して使えます。</p>
+			<br/>
+			<p>■ 気分により<a href="#" onclick="menu_black()">BLACK SKIN</a>と、
+			<a href="#" onclick="menu_white()">WHITE SKIN</a>を選べます。</p>
+		</div>
+	</div>
+	<br>
+	<div id="ad">
+		<iframe id="adframe"
+			style="border: 0px;"
+			width="100%" height="100px">
+		</iframe>
+	</div>
+    <br>
+    <div id="app-info-desc" class="mean">
+        <p><a href="about.html">→About EJDict</a></p>
+    </div>
+</body>
+</html>
+
+
+

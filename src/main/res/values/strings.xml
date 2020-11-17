@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EJDict Light</string>
+    <!-- menu -->
+    <string name="menu_save">Save</string>
+    <string name="menu_saveas">SaveAs</string>
+    <string name="menu_load">Load</string>
+    <string name="menu_close">Close</string>
+</resources>
